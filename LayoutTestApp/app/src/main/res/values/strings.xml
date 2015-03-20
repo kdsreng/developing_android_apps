@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Layout Test App</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_frame">Frame Layout</string>
+    <string name="button_linear_v">Linear Layout (Vertical)</string>
+    <string name="button_linear_h">Linear Layout (Horizontal)</string>
+    <string name="button_relative">Relative Layout</string>
+    <string name="button_scrollview">ScrollView</string>
+    <string name="button_table">TableLayout</string>
+    <string name="title_activity_frame_layout">FrameLayoutActivity</string>
+    <string name="button_back">Back</string>
+    <string name="button_moreInfo">More info abt FrameLayout</string>
+    <string name="title_activity_linear_layout">LinearLayoutActivity</string>
+    <string name="toast_linear">This is an example of LinearLayout.</string>
+    <string name="toast_relative">This is an example of RelativeLayout.</string>
+    <string name="toast_table">This is an example of TableLayout.</string>
+    <string name="toast_frame">This is an example of FrameLayout.</string>
+    <string name="toast_scrollview">This is an example of ScrollView.</string>
+    <string name="toast_activity_close">Activity is closed by finish() method.</string>
+    <string name="edit_text1">using weight = 1</string>
+    <string name="frame_layout_desc_long">FrameLayout is designed to block out an area on the screen to display a single item. Generally, FrameLayout should be used to hold a single child view, because it can be difficult to organize child views in a way that\'s scalable to different screen sizes without the children overlapping each other. You can, however, add multiple children to a FrameLayout and control their position within the FrameLayout by assigning gravity to each child, using the android:layout_gravity attribute.</string>
+    <string name="frame_layout_desc">The first to apologize is the bravest.\nThe first to forgive is the strongest.\nThe first to forget is the happiest.\n So be that first!</string>
+    <string name="relative_layout_desc">(1): A Layout where the positions of the children can be described in relation to each other or to the parent.</string>
+    <string name="title_activity_linear_layout_vertical">LinearLayoutVerticalActivity</string>
+    <string name="title_activity_table_layout">TableLayoutActivity</string>
+    <string name="title_activity_relative_layout">RelativeLayoutActivity</string>
+    <string name="phnom_penh_weather">Phnom Penh Weather</string>
+    <string name="title_activity_sroll_view">SrollViewActivity</string>
+
+    <string name="scrollview_title">ScrollView</string>
+    <string name="scrollview_content">Layout container for a view hierarchy that can be scrolled by the user, allowing it to be larger than the physical display. A ScrollView is a FrameLayout, meaning you should place one child in it containing the entire contents to scroll; this child may itself be a layout manager with a complex hierarchy of objects. A child that is often used is a LinearLayout in a vertical orientation, presenting a vertical array of top-level items that the user can scroll through.\n\nYou should never use a ScrollView with a ListView, because ListView takes care of its own vertical scrolling. Most importantly, doing this defeats all of the important optimizations in ListView for dealing with large lists, since it effectively forces the ListView to display its entire list of items to fill up the infinite container supplied by ScrollView.\n\nThe TextView class also takes care of its own scrolling, so does not require a ScrollView, but using the two together is possible to achieve the effect of a text view within a larger container.\n\nScrollView only supports vertical scrolling. For horizontal scrolling, use HorizontalScrollView.\n\nLayout container for a view hierarchy that can be scrolled by the user, allowing it to be larger than the physical display. A ScrollView is a FrameLayout, meaning you should place one child in it containing the entire contents to scroll; this child may itself be a layout manager with a complex hierarchy of objects. A child that is often used is a LinearLayout in a vertical orientation, presenting a vertical array of top-level items that the user can scroll through.\n\nYou should never use a ScrollView with a ListView, because ListView takes care of its own vertical scrolling. Most importantly, doing this defeats all of the important optimizations in ListView for dealing with large lists, since it effectively forces the ListView to display its entire list of items to fill up the infinite container supplied by ScrollView.\n\nThe TextView class also takes care of its own scrolling, so does not require a ScrollView, but using the two together is possible to achieve the effect of a text view within a larger container.\n\nScrollView only supports vertical scrolling. For horizontal scrolling, use HorizontalScrollView.</string>
+
+</resources>

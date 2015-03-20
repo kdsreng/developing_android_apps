@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+
+
+    <Button
+        android:id="@+id/button_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showFrameLayout"
+        android:text="@string/button_frame" />
+
+    <Button
+        android:id="@+id/button_relative"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showRelativeLayout"
+        android:text="@string/button_relative" />
+
+    <Button
+        android:id="@+id/button_linear_v"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showLinearLayout"
+        android:text="@string/button_linear_v" />
+
+    <Button
+        android:id="@+id/button_linear_h"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showLinearLayout"
+        android:text="@string/button_linear_h" />
+
+    <Button
+        android:id="@+id/button_linear_h"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showSrollView"
+        android:text="@string/button_scrollview" />
+
+</LinearLayout>
