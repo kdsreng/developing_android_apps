@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BasicViewsTestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="textview_text">This is a TextView</string>
+    <string name="editText1">This is an EditText</string>
+    <string name="btnSave">Save</string>
+    <string name="checkbox_autosave">Autosave</string>
+    <string name="chkAutoSave">Autosave</string>
+    <string name="chkStar">Favourite</string>
+    <string name="rdb1">Option 1</string>
+    <string name="rdb2">Option 2</string>
+    <string name="switch_title">Switch</string>
+
+</resources>
