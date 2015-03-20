@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UIViaCodeTestApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="enter_an_email_address">Enter an email address</string>
+    <string name="button_add">Add</string>
+    <string name="button_show_all">show all</string>
+</resources>
