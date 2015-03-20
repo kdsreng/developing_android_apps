@@ -13,9 +13,21 @@ Example Applications Source Code for Android Course
 * [ToastTestApp] (./ToastTestApp/)
 * [TemperatureConverter] (./TemperatureConverter/)
   
+
 ### Week 3
 
 * [TaskBackStackDemoApp] (./TaskBackStackDemoApp/)
 * [ActivityResultDemoApp] (./ActivityResultDemoApp/)
+* [ActivityLifeCycleDemoApp] (./ActivityLifeCycleDemoApp/)
+* [ActivityLifeCycleTestApp] (./ActivityLifeCycleTestApp/)
+* [LayoutDemoApp] (./LayoutDemoApp/)
+* [LayoutTestApp] (./LayoutTestApp/)
+* [UIViaCodeDemoApp] (./UIViaCodeDemoApp/)
+* [UIViaCodeTestApp] (./UIViaCodeTestApp/)
+
+
+### Week 4
+
+* [BasicViewsTestApp] (./BasicViewsTestApp/)
   
   
