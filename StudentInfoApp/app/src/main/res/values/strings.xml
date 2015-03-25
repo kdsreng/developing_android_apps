@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Student Info App</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="emailOpt_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_student_info">Student Info</string>
+    <string name="ok">Ok</string>
+    <string name="name_section">Name:</string>
+    <string name="sex_section">Sex:</string>
+    <string name="dob_section">Date of birth:</string>
+    <string name="contact_section">Contact Info:</string>
+    <string name="address_section">Address:</string>
+    <string name="firstname">First name</string>
+    <string name="lastname">Last name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="dateformat">dd-mm-yyy</string>
+    <string name="pick_date">Pick date</string>
+    <string name="enter_phone_number">Enter a phone number</string>
+    <string name="enter_email_address">Email an email address</string>
+    <string name="send">Send</string>
+    <string name="unitl_next_time">Until next time...</string>
+</resources>
