@@ -29,5 +29,6 @@ Example Applications Source Code for Android Course
 ### Week 4
 
 * [BasicViewsTestApp] (./BasicViewsTestApp/)
+* [StudentInfoApp] (./StudentInfoApp/)
   
   
