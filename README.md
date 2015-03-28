@@ -34,5 +34,5 @@ Example Applications Source Code for Android Course
 
 ### Week 5
 
-* [AdapterViewTestApp] (./AdapterViewTestApp/)
+* [AdapterViewsTestApp] (./AdapterViewsTestApp/)
   
