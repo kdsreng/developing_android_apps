@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="provinces_array">
+        <item>Battambang</item>
+        <item>Kompong Cham</item>
+        <item>Kompong Chhnang</item>
+        <item>Kompong Speu</item>
+        <item>Kompong Thom</item>
+        <item>Phnom Penh</item>
+        <item>Siem Reap</item>
+        <item>Svay Rieng</item>
+    </string-array>
+
+    <string name="textview_province">Province:</string>
+    <string name="title_activity_auto_complete_text_view">AutoCompleteTextViewActivity</string>
+</resources>

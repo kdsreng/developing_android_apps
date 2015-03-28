@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="list_of_us_presidents">List of US Presidents</string>
+    <string name="show_all_selected_items">Show All Selected Items</string>
+    <string name="selected_items">Selected items:</string>
+    <string name="toast_selected_item">"Clicked item: "</string>
+
+    <string-array name="presidents">
+        <item>Dwight D. Eisenhower</item>
+        <item>John F. Kennedy</item>
+        <item>Lyndon B. Johnson</item>
+        <item>Richard Nixon</item>
+        <item>Gerald Ford</item>
+        <item>Jimmy Carter</item>
+        <item>Ronald Reagan</item>
+        <item>George H. W. Bush</item>
+        <item>Bill Clinton</item>
+        <item>George W. Bush</item>
+        <item>Barack Obama</item>
+        <item>Dwight D. Eisenhower</item>
+        <item>John F. Kennedy</item>
+        <item>Lyndon B. Johnson</item>
+        <item>Richard Nixon</item>
+        <item>Gerald Ford</item>
+        <item>Jimmy Carter</item>
+        <item>Ronald Reagan</item>
+        <item>George H. W. Bush</item>
+        <item>Bill Clinton</item>
+        <item>George W. Bush</item>
+        <item>Barack Obama</item>
+    </string-array>
+</resources>

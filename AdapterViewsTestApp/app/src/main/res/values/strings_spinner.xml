@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_spinner">SpinnerActivity</string>
+
+    <string-array name="emailOpt_array">
+        <item>Home</item>
+        <item>Work</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="email_address">Enter an email address</string>
+
+</resources>
