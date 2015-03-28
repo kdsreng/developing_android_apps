@@ -31,4 +31,8 @@ Example Applications Source Code for Android Course
 * [BasicViewsTestApp] (./BasicViewsTestApp/)
 * [StudentInfoApp] (./StudentInfoApp/)
   
+
+### Week 5
+
+* [AdapterViewTestApp] (./AdapterViewTestApp/)
   
