@@ -1,9 +1,7 @@
 package com.gmail.seanvisal.temperatureconverter;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -12,6 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
+    public static final String PREV_RESULT_KEY = "PrevResult";
     EditText editTextDegree;
     TextView textViewResult;
 
@@ -21,6 +20,10 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         editTextDegree = (EditText) findViewById(R.id.edittext_degree);
         textViewResult = (TextView) findViewById(R.id.textview_result);
+
+        //restore previous result
+        if(savedInstanceState!=null)
+            textViewResult.setText(savedInstanceState.getString(PREV_RESULT_KEY));
     }
 
 
@@ -51,4 +54,9 @@ public class MainActivity extends ActionBarActivity {
         Toast.makeText(this, "Fahrenheit to Celsius", Toast.LENGTH_SHORT).show();
     }
 
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString(PREV_RESULT_KEY, textViewResult.getText().toString());
+    }
 }
